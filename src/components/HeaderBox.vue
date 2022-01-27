@@ -32,11 +32,11 @@ export default {
         width: 100%;
         text-align: start;
         .logo{
-            width: 1200px;
+            width: 1400px;
             margin: 0 auto;
 
             nav {
-            width: 500px;
+            float: right;
             display:  flex;
             margin: 0 auto;
 
