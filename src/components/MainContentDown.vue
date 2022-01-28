@@ -1,11 +1,11 @@
 <template>
         <div class="infolist">
             <ul>
-                <li><img src="..\assets\buy-comics-digital-comics.png" alt=""> DIGITAL COMICS</li>
-                <li><img src="..\assets\buy-comics-merchandise.png" alt="">DC MERCHANDISE</li>
-                <li><img src="..\assets\buy-comics-subscriptions.png" alt="">SUBSCRIPTIONS</li>
-                <li><img src="..\assets\buy-comics-shop-locator.png" alt="">COMIC SHOP LOCATOR</li>
-                <li><img src="..\assets\buy-comics-merchandise.png" alt="">DC POWER VISA</li>
+                <li><img src="..\assets\buy-comics-digital-comics.png" alt=""><div class="infotxt"> DIGITAL COMICS</div></li>
+                <li><img src="..\assets\buy-comics-merchandise.png" alt=""><div class="infotxt">DC MERCHANDISE</div></li>
+                <li><img src="..\assets\buy-comics-subscriptions.png" alt=""><div class="infotxt">SUBSCRIPTIONS</div></li>
+                <li><img src="..\assets\buy-comics-shop-locator.png" alt=""><div class="infotxt">COMIC SHOP LOCATOR</div></li>
+                <li><img src="..\assets\buy-comics-merchandise.png" alt=""><div class="infotxt">DC POWER VISA</div></li>
             </ul>
         </div>
 </template>
@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scooped>
         .infolist{
             width: 100%;
-            height: 200px;
+            height: 250px;
             background: #0282F9;
             
             ul{
@@ -38,6 +38,10 @@ export default {
                 
                 li{
                     text-align: center;
+                }
+                
+                .infotxt{
+                    margin: 20px;
                 }
             }
         }

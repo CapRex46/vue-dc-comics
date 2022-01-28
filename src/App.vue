@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box/>
+    <header-box :nav="nav"/>
     <main-content-up/>
     <main-content-down/>
     <footer-up/>
@@ -24,7 +24,54 @@ export default {
     MainContentDown,
     FooterUp,
     FooterDown,
+  },
+  data () {
+    return {
+      nav: [
+        {
+          id: '3449734825',
+          label: 'CHARACTERS',
+          url: '/',
+        },
+        {
+          id: '0528301059',
+          label: 'COMICS',
+          url: '/',
+        },
+        {
+          id: '0261945441',
+          label: 'MOVIES',
+          url: '/',
+        },
+        {
+          id: '7811209593',
+          label: 'TV',
+          url: '/',
+        },
+        {
+          id: '5274226812',
+          label: 'GAMES',
+          url: '/',
+        },
+        {
+          id: '0448171797',
+          label: 'COLLECTIBLES',
+          url: '/',
+        },
+        {
+          id: '2213265722',
+          label: 'VIDEOS',
+          url: '/',
+        },
+        {
+          id: '5619490108',
+          label: 'TV',
+          url: '/',
+        },
+      ]
+    }
   }
+  
 }
 </script>
 
