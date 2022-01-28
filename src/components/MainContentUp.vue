@@ -1,6 +1,6 @@
 <template>
     <main>
-
+        
     </main>
 </template>
 
@@ -12,7 +12,6 @@ export default {
 
 <style lang="scss">
     main {
-        background: black;
         width: 100%;
         height: 600px;
         background: url('../assets/jumbotron.jpg');
